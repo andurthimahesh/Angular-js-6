@@ -1,0 +1,34 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h3>Adding A Bus service</h3>
+    <form>
+      <div class="form-group">
+        BusNumber <br>
+        <input type="text" name="bus_number" [(ngModel)]="b.bus_number" /><br>
+        BusDepo <br>
+        <input type="text" name="bus_depo" [(ngModel)]="b.bus_depo" /><br>
+        BusDestination <br>
+        <input type="text" name="bus_destination" [(ngModel)]="b.bus_destination" /><br>
+        BusTotalseats<br>
+        <input type="text" name="bus_totalseats" [(ngModel)]="b.bus_totalseats" /><br>
+        BusAvilableSeats<br>
+        <input type="text" name="bus_avilableseats" [(ngModel)]="b.bus_avilableseats" /><br>
+        BusType<br>
+        <input type="text" name="bus_type" [(ngModel)]="b.bus_type" /><br>
+        <button (click)="insertdata()">Add</button>
+      </div>
+
+    </form>
+  </div>
+</body>
+
+</html>

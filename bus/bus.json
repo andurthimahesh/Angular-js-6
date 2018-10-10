@@ -1,0 +1,31 @@
+{
+  "bus": [
+    {
+      "id": 1,
+      "bus_number": 6780,
+      "bus_depo": "Godavarikhani",
+      "bus_destination": "Hyderabad",
+      "bus_totalseats": 48,
+      "bus_avilableseats": 34,
+      "bus_type": "Luxery"
+    },
+    {
+      "bus_number": "7271",
+      "bus_depo": "Hyderabad",
+      "bus_destination": "GODAVARIKHANI",
+      "bus_totalseats": "64",
+      "bus_avilableseats": "21",
+      "bus_type": "Express",
+      "id": 2
+    },
+    {
+      "bus_number": "8734",
+      "bus_depo": "Hyderabad",
+      "bus_destination": "Karimnager",
+      "bus_totalseats": "43",
+      "bus_avilableseats": "1",
+      "bus_type": "Delux",
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "bus": [
+    {
+      "bus_number": 6780,
+      "bus_depo": "Godavarikhani",
+      "bus_destination": "Hyderabad",
+      "bus_totalseats": 48,
+      "bus_avilableseats": 34,
+      "bus_type": "Luxery"
+    }
+  ]
+}
